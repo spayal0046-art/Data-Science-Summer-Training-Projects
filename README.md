@@ -1,19 +1,19 @@
-# Project 5: Statistical Decision Support
+# Project 6: ML Feasibility Assessment
 
 ## Objective
-Use statistical methods to analyze student performance and support decision-making.
+Evaluate whether Machine Learning is suitable for solving a customer churn prediction problem.
 
 ## Technologies Used
 - Python
 - Pandas
 - Jupyter Notebook
 
-## Statistical Measures Used
-- Mean
-- Median
-- Maximum
-- Minimum
-- Standard Deviation
+## Tasks Performed
+- Loaded the dataset
+- Checked dataset size and structure
+- Verified target labels
+- Identified suitable ML approach
+- Justified feasibility and rejection conditions
 
 ## Outcome
-Performed statistical analysis and generated insights to support academic decision-making.
+Concluded that the dataset is suitable for a supervised Machine Learning classification model.
