@@ -1,20 +1,22 @@
-# Project 7: Predictive Modeling
+# Project 8: Customer Segmentation
 
 ## Objective
-Build, train, evaluate, and compare supervised Machine Learning models.
+Segment customers using clustering techniques to discover hidden patterns and provide business recommendations.
 
 ## Technologies Used
 - Python
 - Pandas
+- Matplotlib
 - Scikit-learn
 - Jupyter Notebook
 
-## Models Used
-- Logistic Regression
-- Decision Tree Classifier
-
-## Evaluation Metric
-- Accuracy Score
+## Tasks Performed
+- Loaded customer dataset
+- Selected features for clustering
+- Applied K-Means clustering
+- Created customer segments
+- Visualized clusters
+- Generated business recommendations
 
 ## Outcome
-Successfully trained two prediction models, compared their performance, and selected the better-performing model.
+Successfully grouped customers into different segments, enabling personalized marketing and better business decision-making.
