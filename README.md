@@ -1,22 +1,19 @@
-# Project 4: Exploratory Data Analysis (EDA)
+# Project 5: Statistical Decision Support
 
 ## Objective
-Explore and understand a dataset before applying Machine Learning techniques.
+Use statistical methods to analyze student performance and support decision-making.
 
 ## Technologies Used
 - Python
 - Pandas
-- Matplotlib
 - Jupyter Notebook
 
-## Tasks Performed
-- Loaded dataset
-- Inspected dataset structure
-- Generated statistical summary
-- Checked missing values
-- Visualized marks distribution
-- Analyzed attendance vs marks
-- Extracted key insights
+## Statistical Measures Used
+- Mean
+- Median
+- Maximum
+- Minimum
+- Standard Deviation
 
 ## Outcome
-Successfully explored the dataset and identified useful insights for future predictive analysis.
+Performed statistical analysis and generated insights to support academic decision-making.
