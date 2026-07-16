@@ -1,20 +1,22 @@
-# Project 3: Data Cleaning and Preparation
+# Project 4: Exploratory Data Analysis (EDA)
 
 ## Objective
-Prepare raw data for analysis by cleaning missing, duplicate, and inconsistent data.
+Explore and understand a dataset before applying Machine Learning techniques.
 
 ## Technologies Used
 - Python
 - Pandas
+- Matplotlib
 - Jupyter Notebook
 
 ## Tasks Performed
-- Loaded CSV dataset
+- Loaded dataset
 - Inspected dataset structure
-- Identified missing values
-- Removed duplicate records
-- Filled missing values
-- Prepared clean dataset
+- Generated statistical summary
+- Checked missing values
+- Visualized marks distribution
+- Analyzed attendance vs marks
+- Extracted key insights
 
 ## Outcome
-Successfully created a clean dataset ready for further analysis.
+Successfully explored the dataset and identified useful insights for future predictive analysis.
