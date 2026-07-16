@@ -1,29 +1,17 @@
-# Project 1: Business Problem Framing
+# Project 2: Python-Based Data Processing
 
 ## Objective
-Understand a real-world business problem and convert it into a Data Science problem.
+Process structured student data using Python and Pandas.
 
-## Business Problem
-A telecom company is losing customers every month.
-
-## Business Objective
-Predict which customers are likely to leave the company so that retention strategies can be applied.
-
-## Required Data
-- Customer ID
-- Age
-- Gender
-- Monthly Charges
-- Contract Type
-- Tenure
-- Churn (Yes/No)
-
-## Machine Learning Problem
-Classification
-
-## Expected Outcome
-Predict customer churn and help the company retain customers.
-
-## Tools Used
+## Technologies Used
 - Python
-- Jupyter Notebook# Data-Science-Summer-Training-Projects
+- Pandas
+- Jupyter Notebook
+
+## Tasks Performed
+- Loaded CSV data
+- Displayed records
+- Inspected dataset
+- Generated statistical summary
+- Processed data
+- Filtered records
