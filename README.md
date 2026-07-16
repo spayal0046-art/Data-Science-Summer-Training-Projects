@@ -1,7 +1,7 @@
-# Project 2: Python-Based Data Processing
+# Project 3: Data Cleaning and Preparation
 
 ## Objective
-Process structured student data using Python and Pandas.
+Prepare raw data for analysis by cleaning missing, duplicate, and inconsistent data.
 
 ## Technologies Used
 - Python
@@ -9,9 +9,12 @@ Process structured student data using Python and Pandas.
 - Jupyter Notebook
 
 ## Tasks Performed
-- Loaded CSV data
-- Displayed records
-- Inspected dataset
-- Generated statistical summary
-- Processed data
-- Filtered records
+- Loaded CSV dataset
+- Inspected dataset structure
+- Identified missing values
+- Removed duplicate records
+- Filled missing values
+- Prepared clean dataset
+
+## Outcome
+Successfully created a clean dataset ready for further analysis.
