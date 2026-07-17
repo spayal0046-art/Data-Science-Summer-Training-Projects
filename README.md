@@ -1,18 +1,22 @@
-# Project 9: AI Use Case Design
+# Project 10: End-to-End ML Workflow
 
 ## Objective
-Design an AI-based solution for a real-world business problem while identifying the most suitable AI approach and evaluating ethical considerations.
+Design a complete Machine Learning workflow from business understanding to deployment while considering evaluation, monitoring, and ethics.
 
 ## Technologies Used
 - Python
+- Pandas
 - Jupyter Notebook
 
-## Tasks Performed
-- Identified a business problem
-- Designed an AI solution
-- Selected an appropriate AI approach
-- Evaluated benefits
-- Identified risks and ethical concerns
+## Workflow Covered
+- Business Understanding
+- Data Collection
+- Data Preparation
+- Model Selection
+- Model Evaluation
+- Deployment Planning
+- Monitoring
+- Responsible AI & Ethics
 
 ## Outcome
-Successfully designed an AI use case that demonstrates how Artificial Intelligence can improve decision-making and business operations while considering ethical responsibilities.
+Designed a complete end-to-end Machine Learning workflow similar to real-world industry practices.
