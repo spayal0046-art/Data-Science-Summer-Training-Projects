@@ -1,38 +1,46 @@
-# 📈 Sales / Demand Forecasting using Machine Learning
+# 🤖 AI-Based Recommendation System
 
 ## 📌 Project Overview
 
-Sales forecasting plays a vital role in business planning by predicting future demand based on historical sales data. This project applies time-based data analysis and Machine Learning to identify sales trends, understand seasonality, and forecast future sales.
+Recommendation systems have become an essential part of modern digital platforms by providing personalized suggestions based on user preferences and historical interactions.
 
-The project demonstrates an end-to-end forecasting workflow, from data preprocessing and trend analysis to predictive modeling and business impact evaluation.
+This project develops an AI-Based Movie Recommendation System using user ratings and cosine similarity to recommend similar movies. It demonstrates how Artificial Intelligence can enhance user experience through personalized recommendations.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Perform time-based data analysis
-- Identify sales trends and seasonal patterns
-- Build a forecasting model
-- Evaluate forecasting performance
-- Analyze business impact and provide recommendations
+- Learn user behavior through historical ratings
+- Discover viewing patterns
+- Build an AI-powered recommendation engine
+- Generate personalized movie recommendations
+- Evaluate recommendation quality
+- Provide business recommendations
 
 ---
 
 ## 📂 Dataset
 
-**Dataset:** `train.csv`
+### movies.csv
 
-The dataset contains historical sales information including:
+Contains movie details including:
 
-- Date
-- Store
-- Product Family
-- Sales
-- Promotions
+- Movie ID
+- Movie Title
+- Genres
+
+### ratings.csv
+
+Contains user ratings including:
+
+- User ID
+- Movie ID
+- Rating
+- Timestamp
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -43,9 +51,13 @@ The dataset contains historical sales information including:
 
 ---
 
-## 🤖 Machine Learning Model
+## 🤖 AI Techniques Used
 
-- Linear Regression
+- Pattern Learning
+- User-Movie Matrix
+- Cosine Similarity
+- Recommendation Logic
+- Collaborative Filtering Concepts
 
 ---
 
@@ -54,71 +66,54 @@ The dataset contains historical sales information including:
 1. Import Libraries
 2. Load Dataset
 3. Exploratory Data Analysis (EDA)
-4. Time-Based Data Visualization
-5. Date Feature Engineering
-6. Trend Analysis
-7. Seasonality Analysis
-8. Train-Test Split
-9. Linear Regression Model Training
-10. Sales Prediction
-11. Model Evaluation
-12. Forecast Visualization
-13. Business Impact Analysis
-14. Save Prediction Results
+4. Merge Datasets
+5. Data Visualization
+6. Pattern Learning
+7. User-Movie Matrix Creation
+8. Cosine Similarity Calculation
+9. Recommendation Function
+10. Evaluation Strategy
+11. Business Recommendations
+12. Save Processed Dataset
 
 ---
 
-## 📊 Model Evaluation
+## 📊 Visualizations
 
-The forecasting model was evaluated using:
-
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-
----
-
-## 📉 Visualizations
-
-- Daily Sales Trend
-- Monthly Sales Trend
-- Day-wise Sales Analysis
-- Actual vs Predicted Sales
-- Forecast Error Distribution
+- Rating Distribution
+- Top Rated Movies
+- Most Active Users
+- Highest Rated Movies
 
 ---
 
-## 💼 Business Impact
+## 💼 Business Recommendations
 
-This forecasting solution can help businesses:
-
-- Improve inventory management
-- Reduce stock shortages
-- Minimize overstock situations
-- Support demand planning
-- Optimize supply chain operations
-- Improve pricing and promotional strategies
+- Deliver personalized movie recommendations.
+- Increase customer engagement through AI-driven suggestions.
+- Continuously update recommendations based on user activity.
+- Improve customer retention with personalized experiences.
+- Recommend trending and highly rated content to new users.
 
 ---
 
 ## 🚀 Project Outcome
 
-The project successfully analyzed historical sales data and developed a forecasting model capable of predicting future sales trends, enabling better business planning and data-driven decision-making.
+The project successfully developed an AI-powered movie recommendation system capable of suggesting similar movies based on historical user ratings and cosine similarity.
 
 ---
 
 ## 📁 Repository Structure
 
-```
-Sales-Demand-Forecasting/
+AI-Recommendation-System/
 │
-├── Sales_Demand_Forecasting.ipynb
-├── train.csv
-├── sales_forecast_results.csv
+├── AI_Recommendation_System.ipynb
+├── movies.csv
+├── ratings.csv
+├── movie_recommendation_data.csv
 ├── README.md
 ├── requirements.txt
 └── images/
-```
 
 ---
 
