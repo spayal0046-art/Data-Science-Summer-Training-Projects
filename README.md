@@ -1,37 +1,38 @@
-# 📊 Customer Segmentation and Profiling using Machine Learning
+# 📈 Sales / Demand Forecasting using Machine Learning
 
 ## 📌 Project Overview
 
-Customer segmentation helps businesses understand different groups of customers based on their purchasing behavior. In this project, K-Means Clustering was used to divide customers into meaningful segments based on Annual Income and Spending Score.
+Sales forecasting plays a vital role in business planning by predicting future demand based on historical sales data. This project applies time-based data analysis and Machine Learning to identify sales trends, understand seasonality, and forecast future sales.
 
-The generated customer profiles can help businesses design personalized marketing strategies, improve customer engagement, and increase revenue.
+The project demonstrates an end-to-end forecasting workflow, from data preprocessing and trend analysis to predictive modeling and business impact evaluation.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Perform clustering-based customer segmentation
-- Analyze customer purchasing behavior
-- Create customer profiles
-- Develop targeting strategies
-- Generate business recommendations
+- Perform time-based data analysis
+- Identify sales trends and seasonal patterns
+- Build a forecasting model
+- Evaluate forecasting performance
+- Analyze business impact and provide recommendations
 
 ---
 
 ## 📂 Dataset
 
-**Dataset Name:** Mall_Customers.csv
+**Dataset:** `train.csv`
 
-Dataset Features:
-- CustomerID
-- Gender
-- Age
-- Annual Income (k$)
-- Spending Score (1–100)
+The dataset contains historical sales information including:
+
+- Date
+- Store
+- Product Family
+- Sales
+- Promotions
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -42,10 +43,9 @@ Dataset Features:
 
 ---
 
-## 🤖 Machine Learning Technique
+## 🤖 Machine Learning Model
 
-- Unsupervised Learning
-- K-Means Clustering
+- Linear Regression
 
 ---
 
@@ -53,60 +53,72 @@ Dataset Features:
 
 1. Import Libraries
 2. Load Dataset
-3. Exploratory Data Analysis
-4. Data Visualization
-5. Feature Selection
-6. Feature Scaling
-7. Elbow Method
-8. K-Means Clustering
-9. Customer Segmentation
-10. Customer Profiling
-11. Targeting Strategy
-12. Business Recommendations
-13. Save Processed Dataset
+3. Exploratory Data Analysis (EDA)
+4. Time-Based Data Visualization
+5. Date Feature Engineering
+6. Trend Analysis
+7. Seasonality Analysis
+8. Train-Test Split
+9. Linear Regression Model Training
+10. Sales Prediction
+11. Model Evaluation
+12. Forecast Visualization
+13. Business Impact Analysis
+14. Save Prediction Results
 
 ---
 
-## 📊 Visualizations
+## 📊 Model Evaluation
 
-- Gender Distribution
-- Age Distribution
-- Annual Income Distribution
-- Spending Score Distribution
-- Age vs Spending Score
-- Annual Income vs Spending Score
-- Elbow Method
-- Customer Segmentation Scatter Plot
-- Customer Profile Comparison
+The forecasting model was evaluated using:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
 
 ---
 
-## 💼 Business Recommendations
+## 📉 Visualizations
 
-- Focus premium offers on high-value customers.
-- Reward loyal customers with exclusive benefits.
-- Target low-spending customers using personalized promotions.
-- Launch discount campaigns for price-sensitive customers.
-- Use customer segmentation for data-driven marketing.
+- Daily Sales Trend
+- Monthly Sales Trend
+- Day-wise Sales Analysis
+- Actual vs Predicted Sales
+- Forecast Error Distribution
+
+---
+
+## 💼 Business Impact
+
+This forecasting solution can help businesses:
+
+- Improve inventory management
+- Reduce stock shortages
+- Minimize overstock situations
+- Support demand planning
+- Optimize supply chain operations
+- Improve pricing and promotional strategies
 
 ---
 
 ## 🚀 Project Outcome
 
-This project successfully segmented customers into meaningful groups using K-Means Clustering and generated actionable business insights for targeted marketing and customer relationship management.
+The project successfully analyzed historical sales data and developed a forecasting model capable of predicting future sales trends, enabling better business planning and data-driven decision-making.
 
 ---
 
 ## 📁 Repository Structure
 
-Customer-Segmentation/
+```
+Sales-Demand-Forecasting/
 │
-├── Customer_Segmentation.ipynb
-├── Mall_Customers.csv
-├── customer_segmentation.csv
+├── Sales_Demand_Forecasting.ipynb
+├── train.csv
+├── sales_forecast_results.csv
 ├── README.md
 ├── requirements.txt
 └── images/
+```
 
 ---
 
