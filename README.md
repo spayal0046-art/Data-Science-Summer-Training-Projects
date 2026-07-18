@@ -1,49 +1,37 @@
-# 📊 Customer Churn Prediction using Machine Learning
+# 📊 Customer Segmentation and Profiling using Machine Learning
 
 ## 📌 Project Overview
 
-Customer churn is one of the biggest challenges faced by businesses. This project aims to predict whether a customer is likely to leave a company based on historical customer information using Machine Learning.
+Customer segmentation helps businesses understand different groups of customers based on their purchasing behavior. In this project, K-Means Clustering was used to divide customers into meaningful segments based on Annual Income and Spending Score.
 
-This project demonstrates a complete end-to-end Machine Learning workflow including data preprocessing, model building, evaluation, visualization, and business recommendations.
+The generated customer profiles can help businesses design personalized marketing strategies, improve customer engagement, and increase revenue.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-- Predict customer churn using Machine Learning
-- Clean and preprocess customer data
-- Perform exploratory data analysis
-- Train a Logistic Regression model
-- Evaluate model performance
-- Visualize important insights
+- Perform clustering-based customer segmentation
+- Analyze customer purchasing behavior
+- Create customer profiles
+- Develop targeting strategies
 - Generate business recommendations
 
 ---
 
 ## 📂 Dataset
 
-**Dataset Name:** WA_Fn-UseC_-Telco-Customer-Churn.csv
+**Dataset Name:** Mall_Customers.csv
 
-The dataset contains customer information such as:
-
-- Customer Demographics
-- Services Subscribed
-- Contract Type
-- Monthly Charges
-- Total Charges
-- Payment Method
-- Internet Service
-- Customer Churn Status
-
-Target Variable:
-
-- **Churn**
-  - Yes
-  - No
+Dataset Features:
+- CustomerID
+- Gender
+- Age
+- Annual Income (k$)
+- Spending Score (1–100)
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -54,74 +42,71 @@ Target Variable:
 
 ---
 
-## 📈 Machine Learning Workflow
+## 🤖 Machine Learning Technique
+
+- Unsupervised Learning
+- K-Means Clustering
+
+---
+
+## 📈 Project Workflow
 
 1. Import Libraries
 2. Load Dataset
-3. Explore Dataset
-4. Data Cleaning
-5. Feature Encoding
-6. Feature Selection
-7. Train-Test Split
-8. Train Logistic Regression Model
-9. Predict Customer Churn
-10. Evaluate Model Performance
-11. Data Visualization
+3. Exploratory Data Analysis
+4. Data Visualization
+5. Feature Selection
+6. Feature Scaling
+7. Elbow Method
+8. K-Means Clustering
+9. Customer Segmentation
+10. Customer Profiling
+11. Targeting Strategy
 12. Business Recommendations
+13. Save Processed Dataset
 
 ---
 
-## 📊 Model Evaluation
+## 📊 Visualizations
 
-The model was evaluated using:
-
-- Accuracy Score
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Classification Report
-
----
-
-## 📉 Visualizations
-
-This project includes:
-
-- Customer Churn Distribution
-- Confusion Matrix
-- Feature Importance
-- Actual vs Predicted Comparison
+- Gender Distribution
+- Age Distribution
+- Annual Income Distribution
+- Spending Score Distribution
+- Age vs Spending Score
+- Annual Income vs Spending Score
+- Elbow Method
+- Customer Segmentation Scatter Plot
+- Customer Profile Comparison
 
 ---
 
 ## 💼 Business Recommendations
 
-- Improve customer support for high-risk customers.
-- Provide loyalty rewards and personalized offers.
-- Encourage long-term contracts.
-- Monitor customers with high churn probability.
-- Use predictive analytics for proactive customer retention.
+- Focus premium offers on high-value customers.
+- Reward loyal customers with exclusive benefits.
+- Target low-spending customers using personalized promotions.
+- Launch discount campaigns for price-sensitive customers.
+- Use customer segmentation for data-driven marketing.
 
 ---
 
 ## 🚀 Project Outcome
 
-The Machine Learning model successfully predicts customer churn and provides valuable insights that can help businesses improve customer retention strategies.
+This project successfully segmented customers into meaningful groups using K-Means Clustering and generated actionable business insights for targeted marketing and customer relationship management.
 
 ---
 
 ## 📁 Repository Structure
 
-```
-Customer-Churn-Prediction/
+Customer-Segmentation/
 │
-├── Customer_Churn_Prediction.ipynb
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── Customer_Segmentation.ipynb
+├── Mall_Customers.csv
+├── customer_segmentation.csv
 ├── README.md
 ├── requirements.txt
 └── images/
-```
 
 ---
 
